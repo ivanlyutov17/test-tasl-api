@@ -4,9 +4,9 @@ Created a simple API using typescript and express.
 
 App structure is in products folder, same as DTO's.
 
-To start project, u need clone it, then in folder type 'npm i', then it should download all the packages i used.
+To start project, u need clone it, then in terminal type 'npm i', then it should download all the packages i used.
 
-After that, you can start the project with 'npm run dev'.
+After that, you can start the project in terminal with 'npm run dev'.
 
 It will start the server listening 3000 port.
 
@@ -30,7 +30,7 @@ So, here i leave an URL's to simplify your testing process.
    (you shoul pass current product id to remove it from database) /DELETE
 
 PS. I could add a database connection but i decided, that main point is my possibility with working on
-buisiness logic and understanding API concepts.Validation and DTO's are describind what we expecting to
+buisiness logic and understanding API concepts.Validation and DTO's are describing what we expecting to
 recieve from FE, so u can look at it.
 
 I hope that this solution fits your task.
