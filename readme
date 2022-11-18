@@ -1,0 +1,36 @@
+Ivan Lyutov
+
+Created a simple API using typescript and express.
+
+App structure is in products folder, same as DTO's.
+
+To start project, u need clone it, then in folder type 'npm i', then it should download all the packages i used.
+
+After that, you can start the project with 'npm run dev'.
+
+It will start the server listening 3000 port.
+
+In this test task i used JSON-file as a database, just for example, but i could use postgresql or mongodb, but i
+decided that this is not worth it.
+
+So, here i leave an URL's to simplify your testing process.
+
+1. Get all products localhost:3000/all-products, /GET
+
+2. Get product by id localhost:3000/product?id=7e0d456d-41e1-4cb6-b0fe-4c387c1a91a8
+   (this id is an example,id you can find in database file. Id passing in query string) /GET
+
+3. Update product localhost:3000/product/update
+   (you should pass current product id, name and price in request body) /PATCH
+
+4. Create product localhost:3000/product/create
+   (you should pass current product name and price in request body) /POST
+
+5. Remove product localhost:3000/product/remove
+   (you shoul pass current product id to remove it from database) /DELETE
+
+PS. I could add a database connection but i decided, that main point is my possibility with working on
+buisiness logic and understanding API concepts.Validation and DTO's are describind what we expecting to
+recieve from FE, so u can look at it.
+
+I hope that this solution fits your task.
